@@ -26,7 +26,7 @@ Set up global Git settings:
 
 ```bash
 git config --global user.name "sinannaseel"
-git config --global user.email "naseelsinan12@gmail.com"
+git config --global user.email "-----------@gmail.com"
 git config --global core.editor nano
 git config --global pull.rebase false
 ```
