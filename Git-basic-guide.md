@@ -27,7 +27,6 @@ Set up global Git settings:
 ```bash
 git config --global user.name "sinannaseel"
 git config --global user.email "-----------@gmail.com"
-git config --global core.editor nano
 git config --global pull.rebase false
 ```
 
@@ -56,7 +55,7 @@ git config --global pull.rebase false
   ```bash
   git config --help
   ```
-
+ This might not work at times, you might have to install some packages 
 ---
 
 ## Editing Files with Nano
