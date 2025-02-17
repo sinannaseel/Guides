@@ -12,8 +12,16 @@
   - If prompted, select **Other > Other 64-bit ARM**.
 
 ## Step 3: Configure VM Settings
+
+you might not be allowed to configure settings and go on default, although try changing after installation
+
+-------- Stuck at this stage ------------
+
 - **CPU & RAM** → Allocate at least **2 CPUs, 4GB RAM**.
 - **Storage** → Set at least **20GB disk space**.
+-   might need to extend to 80 GB {fo obvious reasons }
+-   go to Virtual Machine ---> settings.. ---> harddisk
+-   change to as needed and also tick the "pre-allocate disk space"
 - **Network** → Use **NAT** for internet access.
 
 ## Step 4: Install Ubuntu Server
@@ -35,13 +43,6 @@ reboot
 sudo apt install xubuntu-desktop -y
 ```
 
-## Step 6: Alternative - Use Multipass Instead
-If you need **Ubuntu for development (CLI only)**, use **Multipass**:
-```bash
-brew install multipass
-multipass launch --name ubuntu-arm --cpus 2 --mem 4G --disk 20G
-multipass shell ubuntu-arm
-```
 This avoids using VMware Fusion.
 
 ## Step 7: Important Notes
