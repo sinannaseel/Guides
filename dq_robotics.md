@@ -1,7 +1,3 @@
-Below is a concise Markdown guide covering dual quaternions and robot control in MATLAB. You can copy this into a file (e.g., `README.md`) for your Git repository.
-
----
-
 ```markdown
 # Dual Quaternions & Robot Control in MATLAB
 
