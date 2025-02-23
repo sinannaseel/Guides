@@ -1,4 +1,4 @@
-```markdown
+
 # Dual Quaternions & Robot Control in MATLAB
 
 This guide briefly summarizes key concepts and operations using MATLAB for quaternions, dual quaternions, and a simple 1-DoF planar robot control. (Requires the DQ Robotics toolbox.)
