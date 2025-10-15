@@ -11,3 +11,7 @@ specific packages:
 
 colcon build --packages-select <name-of-pkg>
 
+
+echo "# Source ROS2 Jazzy, as instructed in https://ros2-tutorial.readthedocs.io" >> ~/.bashrc
+echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+source ~/.bashrc
