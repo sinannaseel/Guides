@@ -19,3 +19,5 @@ source ~/.bashrc
 to switch ros2 workspace in class laptop
 ws_main
 ws_gta 
+
+echo $AMENT_PREFIX_PATH
